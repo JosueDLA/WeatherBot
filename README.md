@@ -33,6 +33,7 @@ Apply for your twitter API key [here](https://developer.twitter.com/en/apply-for
 - **forecastDataTest** - Incluedes all the weather data and forecast info.
 - **LastTweetId.txt** - This file contains the last ID that Weathergt.py has seen.
 - **temp.png** - Sample output image.
+- **twitter.png** - Twitter screenshot.
 
 ## Folders
 - **Fonts** - Contains all the fonts used by the project.
