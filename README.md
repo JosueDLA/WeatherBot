@@ -1,9 +1,16 @@
 # WeatherBot
-Twitter bot that provides weather information
+Twitter bot that provides weather information. This bot generates an image with the weather forecast of a city entered by the user through a tweet.
+
+![Output Image](https://josuedla.github.io/assets/images/project01/pic02.jpg)
+
+![Tweet](https://josuedla.github.io/assets/images/project01/pic03.jpg)
 
 ## Setup
 
 ### Needed Libraries
+
+To create this project we used multiple libraries. The main ones where.
+
 **PIL**
 ```sh
 > pip install Pillow
