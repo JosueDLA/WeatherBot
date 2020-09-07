@@ -1,37 +1,46 @@
-## Welcome to GitHub Pages
+# WeatherBot
+Twitter bot that provides weather information. This bot generates an image with the weather forecast of a city entered by the user through a tweet.
 
-You can use the [editor on GitHub](https://github.com/JosueDLA/WeatherBot/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+![Output Image](https://josuedla.github.io/assets/images/project01/pic02.jpg)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+![Tweet](https://josuedla.github.io/assets/images/project01/pic03.jpg)
 
-### Markdown
+## Setup
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Needed Libraries
 
-```markdown
-Syntax highlighted code block
+To create this project we used multiple libraries. The main ones where.
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+**PIL**
+```sh
+> pip install Pillow
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+**Numpy**
+```sh
+> pip install numpy
+```
 
-### Jekyll Themes
+**Tweepy**
+```sh
+> pip install tweepy
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/JosueDLA/WeatherBot/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## API Key
+**OpenWeatherAPI**
+Get your OpenWeather API key [here](https://openweathermap.org/api)
 
-### Support or Contact
+**Twitter Developer**
+Apply for your twitter API key [here](https://developer.twitter.com/en/apply-for-access)
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Files
+- **Weatehrgt.py** - This is the main file, includes all the weather info, generates the output image and post it on twitter.
+- **ImageTest.py** - Includes the basic layout of the output image.
+- **botTest.py** - Basic code, includes all the bot code without weather info.
+- **forecastDataTest** - Incluedes all the weather data and forecast info.
+- **LastTweetId.txt** - This file contains the last ID that Weathergt.py has seen.
+- **temp.png** - Sample output image.
+- **twitter.png** - Twitter screenshot.
+
+## Folders
+- **Fonts** - Contains all the fonts used by the project.
